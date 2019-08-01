@@ -144,6 +144,10 @@ def winner(array)
 end
 
 def play(board)
+  input = gets
+end
+
+def play(board)
   while !over?(board)
     turn(board)
   end
